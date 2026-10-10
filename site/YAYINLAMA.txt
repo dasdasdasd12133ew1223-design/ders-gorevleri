@@ -1,0 +1,24 @@
+DERS GOREVLERI TANITIM VE INDIRME SITESI
+
+Siteyi onizlemek icin index.html dosyasini tarayicida acin.
+
+Internette yayinlamak icin site klasorunun ICERIGINI statik web hosting
+hizmetinizin yayin klasorune yukleyin (or. Cloudflare Pages veya Netlify).
+Giris sayfasi index.html dosyasidir.
+assets/logo.png, assets/site.css, assets/privacy.css ve
+downloads/Ders-Gorevleri-Setup.exe ile downloads/SHA256SUMS.txt
+dosyalarini da klasor yapisini koruyarak yukleyin. `_headers` dosyasini da
+yukleyin; destekleyen barindirma hizmetlerinde guvenlik basliklarini uygular.
+Barindirma panelinde HTTPS/SSL'yi acin, HTTPS zorlamasini etkinlestirin ve
+yayin sonrasinda yanit basliklarini disaridan dogrulayin.
+
+Onemli: Proje ana klasorunu yayinlamayin. Orada kullanici hesap/veritabani
+dosyalari vardir. Yalnizca bu site klasoru herkese acik olacak sekilde
+hazirlanmistir.
+
+Bu paket tanitim sitesi ve uygulama kurulum dosyasini icerir. Uygulamanin icinde
+cevrimici hesap esitleme veya odeme/abonelik altyapisi bulunmamaktadir.
+
+Domain satin alma ve hosting hesabi acma islemleri dis hizmet saglayicisinda
+hesap sahibinin secimini, girisini ve odeme onayini gerektirir. Bu paket
+yayina hazirdir, fakat kendi basina domain satin almaz veya yayina cikmaz.

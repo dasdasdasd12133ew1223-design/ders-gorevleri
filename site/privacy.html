@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101318">
+  <meta name="description" content="Ders Görevleri uygulamasında hangi bilgilerin nerede saklandığı ve güvenlik sınırları.">
+  <title>Gizlilik ve güvenlik — YKS Dostu</title>
+  <link rel="icon" type="image/png" href="assets/logo.png?v=2">
+  <link rel="stylesheet" href="assets/privacy.css">
+</head>
+<body>
+  <header><div class="wrap"><a href="index.html">← YKS Dostu ana sayfası</a></div></header>
+  <main class="wrap">
+    <h1>🛡️ Gizlilik ve güvenlik</h1>
+    <p class="updated">Son güncelleme: 10 Ekim 2026</p>
+
+    <div class="card"><strong>Önemli:</strong> Bu sürüm masaüstünde yerel çalışır. Uygulamada çevrimiçi hesap sunucusu, veri senkronizasyonu, ödeme sistemi veya analitik hizmeti yoktur.</div>
+
+    <h2>📦 Uygulama ve indirme</h2>
+    <p>İndirme paketi Windows masaüstü uygulamasıdır. Hesap bilgileri ve çalışma verileri uygulamanın kullanıldığı cihazda saklanır. Uygulama veritabanlarını kullanıcının Windows yerel uygulama verileri klasöründe tutar; klasöre erişim Windows kullanıcı hesabının dosya izinlerine tabidir.</p>
+    <p>Uygulama parolayı düz metin olarak kaydetmez. Parola doğrulama için tuzlanmış PBKDF2-SHA256 özeti kullanılır. Uygulama açılışında oturum kolaylığı için yalnızca yerel hesap kimliği hatırlanır. Bu nedenle yerel üyelik, başka bir Windows hesabına karşı çevrimiçi kimlik doğrulama veya şifrelenmiş kasa olarak değerlendirilmemelidir.</p>
+    <p>Görev, ders ve not veritabanı bu sürümde ayrıca şifrelenmez. Cihazını paylaşırken Windows hesabını kilitle ve cihaz erişimini koru. Bilgisayar kaybolur veya başkası Windows oturumuna erişirse yerel dosyalara erişim mümkün olabilir.</p>
+
+    <h2>🌐 Bu tanıtım sitesi</h2>
+    <p>Site statik HTML, CSS ve görsel dosyalarından oluşur. Site üzerinde kayıt/giriş formu veya ödeme formu yoktur; bu proje analitik ya da reklam izleyicisi eklemez. Barındırma sağlayıcısı, DNS sağlayıcısı ve tarayıcı; kendi altyapılarının olağan bağlantı günlüklerini tutabilir. Bu günlüklerin kapsamı seçilecek sağlayıcının gizlilik koşullarına bağlıdır.</p>
+    <p>Site, desteklenen statik barındırmada güvenlik başlıkları için bir <code>_headers</code> dosyası içerir. Yayına alırken alan adı için HTTPS/TLS'yi etkinleştir ve sağlayıcının başlıkları uyguladığını doğrula. Bu başlık dosyası tüm barındırma sağlayıcılarında otomatik uygulanmaz.</p>
+
+    <h2>💳 Üyelik ve ödeme</h2>
+    <p>Uygulama içindeki hesap bu cihazla sınırlıdır. Ücretli abonelik, ödeme tahsilatı, hesap kurtarma veya cihazlar arası eşitleme bu sürümde yoktur. Bu özellikler eklenmeden önce çevrimiçi hizmetin gizlilik ve güvenlik altyapısı ayrıca tasarlanmalıdır.</p>
+
+    <h2>⬇️ İndirilen dosyayı doğrula</h2>
+    <p>Uygulamayı yalnızca tanıdığın resmi yayın bağlantısından indir. Kurulum dosyası yönetici izni olmadan Windows kullanıcı hesabına yüklenir. Bu sürüm dijital olarak imzalanmış bir Windows kurulum dosyası değildir; Windows SmartScreen uyarısı gösterebilir. Dosyayı çalıştırmadan önce yayımlanan SHA-256 değerini doğrula.</p>
+
+    <p><a class="back" href="index.html#indir">← İndirme sayfasına dön</a></p>
+  </main>
+  <footer><div class="wrap">🔒 YKS Dostu · Gizlilik ve güvenlik bilgileri</div></footer>
+</body>
+</html>
