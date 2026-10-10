@@ -1,0 +1,15 @@
+.wrangler/
+.venv/
+__pycache__/
+*.py[cod]
+*.db
+member_data/
+build/
+dist/
+downloads/
+site/downloads/
+*.exe
+*.zip
+*.log
+.DS_Store
+YKS Sayısal (2018-2026) Ağırlıklı Soru Dağılımı.pdf
